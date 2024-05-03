@@ -48,6 +48,11 @@ const Shopping_page = () => {
               <li>L</li>
               <li>XL</li>
             </ul>
+          </div> 
+          <div className="btns">
+            <div className="number"></div>
+            <button>Buy NOW</button>
+            <button>Add to cart</button>
           </div>
         </div>
       </div>
