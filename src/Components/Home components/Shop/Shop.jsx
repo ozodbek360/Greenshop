@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Shop.scss";
 import { CiShoppingCart } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
+import Fandst from "../Hellp/Fandst";
 const Shop = () => {
+  const [Sendst ,setSendst] = useState(1)
   return (
     <div className="Shop">
       <div className="menu_bar">
@@ -102,9 +104,9 @@ const Shop = () => {
       <div className="boxes_menu">
         <div className="box_titles">
             <ul>
-                <li><p>All Plants</p></li>
-                <li><p>New Arrivals</p></li>
-                <li><p>Sale</p></li>
+                <li onClick={() => setSendst(1)}><p>All Plants</p></li>
+                <li onClick={() => setSendst(2)}><p>New Arrivals</p></li>
+                <li onClick={() => setSendst(3)}><p>Sale</p></li>
             </ul> 
             <div className="select">
                 <p>Short by:</p>
@@ -115,7 +117,7 @@ const Shop = () => {
                 </select>
             </div>
         </div> 
-        <div className="boxes">
+      {Sendst == 1 ?    <div className="boxes">
             <div className="box">
                 <div className="image">
                 <img src="public/Images/box1.png" alt="" />
@@ -242,7 +244,8 @@ const Shop = () => {
 
                 </div>
             </div>
-        </div>
+        </div> : ""}
+        {Sendst == 2 ? <Fandst/> : ""}
       </div>
     </div>
   );

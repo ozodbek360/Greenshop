@@ -1,14 +1,19 @@
 import React from 'react'
-
+import "./Shopping_page.scss"
+import { FaRegHeart } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 const Shopping_page = () => {
   return (
     <div className='shop_page'>
       <div className="shop_title">
-        <ul>
-          <li><p>Home /</p></li>
-          <li><p>Shop</p></li>
+       
+          <p>Home / <span>Shop</span></p>
+          
 
-        </ul>
+        
       </div> 
       <div className="box">
         <div className="box_image">
@@ -37,6 +42,7 @@ const Shopping_page = () => {
             <p>19 Customer Review</p>
           </div>
           <div className="text">
+            <hr />
             <h3>Short Description:</h3>
             <p>The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. </p>
           </div>
@@ -51,8 +57,23 @@ const Shopping_page = () => {
           </div> 
           <div className="btns">
             <div className="number"></div>
-            <button>Buy NOW</button>
-            <button>Add to cart</button>
+            <button className='buy'>Buy NOW</button>
+            <button className='buy'>Add to cart</button>
+            <button className='like'><FaRegHeart /></button>
+          </div> 
+          <div className="categories">
+            <p><span>SKU:</span> 1995751877966</p>
+            <p><span>Categories:</span> Potter Plants</p>
+            <p><span>Tags: </span>Home, Garden, Plants</p>
+          </div> 
+          <div className="share">
+            <h3>Share this products:</h3>
+            <ul>
+                <li><FaFacebookF /></li>
+                <li><FaInstagram /></li>
+                <li><FaTwitter /></li>
+                <li><FaLinkedinIn /></li>
+            </ul>
           </div>
         </div>
       </div>
