@@ -1,0 +1,13 @@
+.Shop_card{
+    width: 100%;
+    padding: 15px 75px;
+    background-color: green;
+
+    display: flex;
+    transform: scale(0);
+    right: -100%;
+    &.online{
+        transform: scale(1);
+        right: 0;
+    }
+}

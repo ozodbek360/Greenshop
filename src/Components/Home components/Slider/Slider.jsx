@@ -26,7 +26,7 @@ export default function App() {
           clickable: true,
         
         }}
-        navigation={true}
+        // navigation={true}
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >

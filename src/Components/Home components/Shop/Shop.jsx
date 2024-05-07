@@ -3,7 +3,7 @@ import "./Shop.scss";
 import { CiShoppingCart } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
-import Fandst from "../Hellp/Fandst";
+import New_arrivals from "../Hellp/New_arrivals";
 const Shop = () => {
   const [Sendst ,setSendst] = useState(1)
   return (
@@ -245,7 +245,7 @@ const Shop = () => {
                 </div>
             </div>
         </div> : ""}
-        {Sendst == 2 ? <Fandst/> : ""}
+        {Sendst == 2 ? <New_arrivals/> : ""}
       </div>
     </div>
   );

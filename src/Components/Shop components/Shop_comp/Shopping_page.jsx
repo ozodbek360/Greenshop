@@ -5,12 +5,15 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 const Shopping_page = () => {
   return (
     <div className='shop_page'>
       <div className="shop_title">
        
-          <p>Home / <span>Shop</span></p>
+      <NavLink to={"/"}>Home /</NavLink>
+      <span> <NavLink to={"shop"}>Shop </NavLink></span>
+
           
 
         

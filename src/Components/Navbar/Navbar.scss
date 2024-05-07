@@ -134,9 +134,10 @@
 
         .Login{
             width: 500px;
-            height: 600px;
+            height: 640px;
             position: absolute;
             padding: 25px 35px;
+            margin: 0 auto;
             background-color: white;
             display: flex;  
             left: 50%;
@@ -165,6 +166,7 @@
             }
     
             .title{
+                cursor: pointer;
                 display: flex;
                 align-items: center;
                 gap: 8px;
@@ -188,6 +190,10 @@
                     
                 }
             } 
+         .login_box{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
             .inputs{
                 margin-top: 25px;    
                 display: flex;
@@ -333,6 +339,7 @@
                     }
                 }
             }
+         }
         }
     }
 }

@@ -1,0 +1,33 @@
+.Description{
+    padding: 25px 75px;
+    ul{
+        display: flex;
+        gap: 15px;
+        li{
+            font-size: 17px;
+            font-weight: 400;
+            text-align: left;
+            color: #3D3D3D;
+            margin: 15px 0;
+            &:hover{
+                border-bottom: 1px solid #46A358;
+                color: #46A358;
+
+            }
+        }
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: #727272;
+        span{
+            font-size: 14px;
+            font-weight: 700;
+            text-align: left;
+            color: #3D3D3D;
+            
+        }
+        
+    }
+}

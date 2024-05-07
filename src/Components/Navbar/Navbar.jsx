@@ -11,7 +11,8 @@ import {  NavLink } from "react-router-dom";
 const Navbar = () => {
     const [open , setOpen]=useState(false) 
     const [live , setLive]=useState(false)
- 
+    const [online , setOnline]=useState(false)
+    const [login ,setLogin]=useState(1)
   return (
     
     <div className='Navbar'>
@@ -32,7 +33,7 @@ const Navbar = () => {
         <div className="btn">
         <div className="icons">
         <CiSearch /> 
-        <CiShoppingCart />
+        <CiShoppingCart  onClick={()=>setOnline(!online)}/>
 
         </div>
             <button className='login' onClick={()=>setLive(!live)}>
@@ -65,33 +66,82 @@ const Navbar = () => {
           <HiXMark />
         </div>
         <div className="title">
-            <h2>Login</h2>
+            <h2 onClick={() => setLogin(1)}>Login</h2>
             <span></span>
-            <h3>Register</h3>
+            <h3 onClick={() => setLogin(2) }>Register</h3>
         </div>
+       {
+        login==1 ? <div className="login_box">
         <div className="inputs">
-            <p className='username'>Enter your username and password to login.</p>
-            <input type="text" placeholder='almamun_uxui@outlook.com' />
-            <input type="password" placeholder='password' /> 
-            <p>Forgot Password?</p>
-        </div>
-        <div className="log_btn">
-            <button>Login</button>
-        </div>
-        <div className="orlogin">
-            <span className='bolt'></span>
-            <h3>Or login with</h3>
-            <span className='bolt'></span>
-        </div>
-        <div className="btns">
-            <div className="btn1">
-             <button><img src="public/Images/btn1.png" alt="" /><p>Login with Google</p></button>
-            </div>
-            <div className="btn2">
-             <button><img src="public/Images/btn2.png" alt="" /><p>Login with Facebook</p></button>
-            </div>
-        </div>
+             <p className='username'>Enter your username and password to login.</p>
+             <input type="text" placeholder='almamun_uxui@outlook.com' />
+             <input type="password" placeholder='password' /> 
+             <p>Forgot Password?</p>
+         </div>
+         <div className="log_btn">
+             <button>Login</button>
+         </div>
+         <div className="orlogin">
+             <span className='bolt'></span>
+             <h3>Or login with</h3>
+             <span className='bolt'></span>
+         </div>
+         <div className="btns">
+             <div className="btn1">
+              <button><img src="public/Images/btn1.png" alt="" /><p>Login with Google</p></button>
+             </div>
+             <div className="btn2">
+              <button><img src="public/Images/btn2.png" alt="" /><p>Login with Facebook</p></button>
+             </div>
+         </div>
+        </div> : ""
+       }
+       {
+        login==2 ? <div className="login_box">
+        <div className="inputs">
+             <p className='username'>Enter your username and password to login.</p>
+             <input type="text" placeholder='Username' />
+             <input type="text" placeholder='Enter your email address' />
+
+             <input type="password" placeholder='password' /> 
+             <input type="text" placeholder='Confirm Password' />
+
+             <p>Forgot Password?</p>
+         </div>
+         <div className="log_btn">
+             <button>Login</button>
+         </div>
+         <div className="orlogin">
+             <span className='bolt'></span>
+             <h3>Or register with</h3>
+             <span className='bolt'></span>
+         </div>
+         <div className="btns">
+             <div className="btn1">
+              <button><img src="public/Images/btn1.png" alt="" /><p>Login with Google</p></button>
+             </div>
+             <div className="btn2">
+              <button><img src="public/Images/btn2.png" alt="" /><p>Login with Facebook</p></button>
+             </div>
+         </div>
+        </div> : ""
+       }
     </div>
+       </div>
+       <div className="shoppingcart">
+        <div className="products">
+            <h2>Products</h2>
+            <ul>
+                <li>Price</li>
+                <li>Quantity</li>
+                <li>Total</li>
+
+            </ul>
+        </div> 
+        <div className="totals">
+            <h2>Cart Totals</h2>
+            
+        </div>
        </div>
     </div>
   )
