@@ -24,8 +24,7 @@ export default function App() {
           }}
           
         modules={[Autoplay]}
-       
-
+        
        
       >
         <SwiperSlide><div className="box_s">

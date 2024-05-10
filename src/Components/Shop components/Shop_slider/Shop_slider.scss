@@ -57,3 +57,44 @@
     
     
 } 
+@media screen  and (min-width: 0) and (max-width: 447px){
+  .box_s{
+    // border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 10px 15px;
+    
+    .image{
+        width: 100%;
+        padding: 15px 15px;
+        height: auto;
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+
+
+
+        img{
+            height: 168px;
+            width: 168px;
+        }
+    }
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: #3D3D3D;
+        
+    } 
+    p{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        color: #46A358;
+    } 
+    
+    
+} 
+}

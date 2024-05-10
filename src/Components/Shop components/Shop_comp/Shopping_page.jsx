@@ -43,7 +43,7 @@ const Shopping_page = () => {
           <h1>Barberton Daisy</h1>
           <div className="sum">
             <h2>$119.00</h2> 
-            <Rating name="half-rating" defaultValue={2.5} precision={0.5}/>
+            <Rating className='rating' name="half-rating" defaultValue={2.5} precision={0.5}/>
             <p>19 Customer Review</p>
           </div>
           <div className="text">

@@ -272,8 +272,8 @@
     
                 .mini_boxes{
                     .box{
-                        width: 100px;
-                        height: 100px;
+                        width: 80px;
+                        height: 80px;
                         &:hover{
                             border: 1px solid #46A358;
     
@@ -281,16 +281,16 @@
                     }
                 } 
                 .max_box{
-                    width: 444px;
-                    height: 444px;
+                    width:auto;
+                    height: auto;
                     background-color: #ffff;
                     display: flex;
                     align-items: center;
                     justify-content: center;
     
                     img{
-                        width: 404px;
-                        height: 404px;
+                        width: 250px;
+                        height: 250px;
                     } 
                     
                 }
@@ -310,15 +310,19 @@
                 }
                 .sum{
                     display: flex;
+                    align-items: center;
                     justify-content: space-between;
                     h2{
-                        font-size: 20px;
+                        font-size: 18px;
                         font-weight: 700;
                         text-align: left;
                         color: #46A358;
                     }
+                    .rating{
+                        font-size: 22px;
+                    }
                     p{
-                        font-size: 15px;
+                        font-size: 12px;
                         font-weight: 400;
                         text-align: left;
                         color: #3D3D3D;
@@ -384,7 +388,7 @@
     
                     .buy{
                         cursor: pointer;
-                        padding: 8px 35px;
+                        padding: 6px 20px;
                         border-radius: 6px;
                         font-size: 14px;
                         font-weight: 700;
