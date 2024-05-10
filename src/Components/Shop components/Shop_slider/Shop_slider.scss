@@ -1,26 +1,4 @@
-#app {
-    height: 100%;
-  }
-  html,
-  body {
-    position: relative;
-    height: 100%;
-  }
-  
-  body {
-    background: #fff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 1;
-  }
-  
-  .swiper {
-    padding: 25px 75px;
-    width: 100%;
-    height: 100%;
-  }
+
   
   .swiper-slide {
     
@@ -50,6 +28,7 @@
     
     .image{
         width: 100%;
+        padding: 15px 15px;
         height: auto;
         display: flex;
         // align-items: center;
@@ -59,7 +38,7 @@
 
         img{
             height: 250px;
-            width: 250px;
+            width: 200px;
         }
     }
     h3{

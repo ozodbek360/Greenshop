@@ -48,11 +48,17 @@ const Navbar = () => {
         <FaBarsProgress className="bars_icon" onClick={() => setOpen(!open)} />
       </div>
       <div className={open ? "bars_table active" : "bars_table"}>
-        <ul>
-          <li>Home</li>
-          <li>Shop</li>
-          <li>Plant Care</li>
-          <li>Blogs</li>
+      <ul>
+          <li>
+            
+            <NavLink to={"/"}>Home</NavLink>
+          </li>
+          <li>
+            
+            <NavLink to={"shop"}>Shop</NavLink>
+          </li>
+          <li><NavLink to={"plantcare"}>Plant Care</NavLink></li>
+          <li><NavLink to={"blogs"}>Blogs</NavLink></li>
         </ul>
         <div className="out">
           <HiMiniXMark className="exit" onClick={() => setOpen(false)} />
