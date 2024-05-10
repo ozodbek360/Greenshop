@@ -16,10 +16,10 @@ export default function App() {
     <>
       <Swiper
         slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={100}
         loop={true} 
         autoplay={{
-          delay: 2500,
+          delay: 1800,
           disableOnInteraction: false,
         }}
         pagination={{

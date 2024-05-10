@@ -5,14 +5,15 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { Rating } from '@mui/material';
 const Shopping_page = () => {
   return (
     <div className='shop_page'>
       <div className="shop_title">
        
       <NavLink to={"/"}>Home /</NavLink>
-      <span> <NavLink to={"shop"}>Shop </NavLink></span>
+      <span> Shop </span>
 
           
 
@@ -41,7 +42,8 @@ const Shopping_page = () => {
         <div className="box_text">
           <h1>Barberton Daisy</h1>
           <div className="sum">
-            <h2>$119.00</h2>
+            <h2>$119.00</h2> 
+            <Rating name="half-rating" defaultValue={2.5} precision={0.5}/>
             <p>19 Customer Review</p>
           </div>
           <div className="text">
@@ -61,7 +63,7 @@ const Shopping_page = () => {
           <div className="btns">
             <div className="number"></div>
             <button className='buy'>Buy NOW</button>
-            <button className='buy'>Add to cart</button>
+            <button className='buy'><Link to={"/shopcart"}>Add to cart</Link></button>
             <button className='like'><FaRegHeart /></button>
           </div> 
           <div className="categories">
