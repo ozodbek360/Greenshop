@@ -209,6 +209,14 @@
                 }
             }
         }
+    } 
+    .media_footer{
+        display: none;
+        width: 90%;
+        height: auto;
+        position: absolute;
+        padding: 10px 10px;
+
     }
 
 }
@@ -217,9 +225,9 @@
         width: 100%;
         height: auto;
         padding: 10px 10px;
-    
+       
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
         .footer_boxes{
             width: 100%;
             display: flex;
@@ -446,6 +454,62 @@
                     }
                 }
             }
+        }
+        .media_footer{
+            width: 95%;
+            height: 94px;
+            padding: 25px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            z-index: 5;
+            bottom: 0;
+            border-radius: 6px 6px 0 0;
+            background-color: #ffff; 
+            .scan{
+                position: absolute;
+                top: -15px;
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+                width: 65px;
+                height: 65px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                background: linear-gradient(180deg, rgba(70, 163, 88, 0.4) -16.92%, #46A358 109.23%);
+
+
+                svg{
+                    font-size: 28px;
+                    color: white;
+                }
+            }
+            ul{
+                display: flex;
+                justify-content: space-between;
+                width: 25%; 
+                li{
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid white;
+                    svg{
+                        color: #D9D9D9; 
+                        font-size: 20px;
+                        &:active{
+
+                            color: #46A358;
+                        }
+                    }
+                }
+
+            }
+      
         }
     
     } 

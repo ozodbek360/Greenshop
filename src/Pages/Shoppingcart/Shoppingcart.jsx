@@ -38,6 +38,7 @@ const Shoppingcart = () => {
                   </p>
                 </div>
               </div>
+              <div className="half_total">
               <div className="price">
                 <p>$119.00</p>
               </div>
@@ -52,6 +53,7 @@ const Shoppingcart = () => {
               </div>
               <div className="total">
                 <h2>$238.00</h2>
+              </div>
               </div>
               <div className="delete">
                 <LuTrash />
@@ -67,6 +69,7 @@ const Shoppingcart = () => {
                   </p>
                 </div>
               </div>
+              <div className="half_total">
               <div className="price">
                 <p>$119.00</p>
               </div>
@@ -82,10 +85,11 @@ const Shoppingcart = () => {
               <div className="total">
                 <h2>$238.00</h2>
               </div>
+              </div>
               <div className="delete">
                 <LuTrash />
               </div>
-            </div>
+            </div> 
             <div className="box">
               <div className="personal">
                 <img src="public/Images/box1.png" alt="rasm bor" />
@@ -96,6 +100,7 @@ const Shoppingcart = () => {
                   </p>
                 </div>
               </div>
+              <div className="half_total">
               <div className="price">
                 <p>$119.00</p>
               </div>
@@ -111,10 +116,11 @@ const Shoppingcart = () => {
               <div className="total">
                 <h2>$238.00</h2>
               </div>
+              </div>
               <div className="delete">
                 <LuTrash />
               </div>
-            </div>
+            </div> 
             <div className="box">
               <div className="personal">
                 <img src="public/Images/box1.png" alt="rasm bor" />
@@ -125,6 +131,7 @@ const Shoppingcart = () => {
                   </p>
                 </div>
               </div>
+              <div className="half_total">
               <div className="price">
                 <p>$119.00</p>
               </div>
@@ -140,10 +147,11 @@ const Shoppingcart = () => {
               <div className="total">
                 <h2>$238.00</h2>
               </div>
+              </div>
               <div className="delete">
                 <LuTrash />
               </div>
-            </div>
+            </div> 
             <div className="box">
               <div className="personal">
                 <img src="public/Images/box1.png" alt="rasm bor" />
@@ -154,6 +162,7 @@ const Shoppingcart = () => {
                   </p>
                 </div>
               </div>
+              <div className="half_total">
               <div className="price">
                 <p>$119.00</p>
               </div>
@@ -169,10 +178,74 @@ const Shoppingcart = () => {
               <div className="total">
                 <h2>$238.00</h2>
               </div>
+              </div>
+              <div className="delete">
+                <LuTrash />
+              </div>
+            </div> 
+            <div className="box">
+              <div className="personal">
+                <img src="public/Images/box1.png" alt="rasm bor" />
+                <div className="text">
+                  <h3>Barberton Daisy</h3>
+                  <p>
+                    SKU: <span> 1995751877966</span>
+                  </p>
+                </div>
+              </div>
+              <div className="half_total">
+              <div className="price">
+                <p>$119.00</p>
+              </div>
+              <div className="quantity">
+                <span onClick={() => setSleds(Sleds <= 1 ? 1 : Sleds - 1)}>
+                  <h2>-</h2>
+                </span>
+                <h3>{Sleds}</h3>
+                <span onClick={() => setSleds(Sleds + 1)}>
+                  <h2>+</h2>
+                </span>
+              </div>
+              <div className="total">
+                <h2>$238.00</h2>
+              </div>
+              </div>
+              <div className="delete">
+                <LuTrash />
+              </div>
+            </div> 
+            <div className="box">
+              <div className="personal">
+                <img src="public/Images/box1.png" alt="rasm bor" />
+                <div className="text">
+                  <h3>Barberton Daisy</h3>
+                  <p>
+                    SKU: <span> 1995751877966</span>
+                  </p>
+                </div>
+              </div>
+              <div className="half_total">
+              <div className="price">
+                <p>$119.00</p>
+              </div>
+              <div className="quantity">
+                <span onClick={() => setSleds(Sleds <= 1 ? 1 : Sleds - 1)}>
+                  <h2>-</h2>
+                </span>
+                <h3>{Sleds}</h3>
+                <span onClick={() => setSleds(Sleds + 1)}>
+                  <h2>+</h2>
+                </span>
+              </div>
+              <div className="total">
+                <h2>$238.00</h2>
+              </div>
+              </div>
               <div className="delete">
                 <LuTrash />
               </div>
             </div>
+           
           </div>
         </div>
         <div className="totals">

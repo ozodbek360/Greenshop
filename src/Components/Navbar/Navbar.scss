@@ -114,7 +114,30 @@
         justify-content: space-between;
         transform: scale(0);
         right: -100%;
-        // border: 1px solid; 
+        // border: 1px solid;  
+        ul{
+
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            li{
+               a{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20.11px; 
+                color: #3D3D3D; 
+                text-align: left;
+                &:hover{
+                    // font-weight: 700;
+                    color: #46A358;
+                    border-bottom: 2px solid #46A358;
+                }
+               }
+                
+            }
+        }
         &.active{
             transform: scale(1);
             right: 0;

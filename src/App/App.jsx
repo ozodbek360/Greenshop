@@ -7,6 +7,8 @@ import Footer from "../Components/Home components/Footer/Footer";
 import Shop from "../Pages/Shop/Shoppage";
 import Shoppingcart from "../Pages/Shoppingcart/Shoppingcart";
 import Search from "../Pages/Search/Search";
+import Login from "../Pages/Media login/Login";
+import Register from "../Pages/Media Register/Register";
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,7 +18,11 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop/>} />
         <Route path="/shopcart" element={<Shoppingcart/>} />
-        <Route path="/search" element={<Search/>} />
+        <Route path="/search" element={<Search/>} /> 
+        <Route path="/login" element={<Login/>} /> 
+        <Route path="/register" element={<Register/>} /> 
+
+
 
       </Routes> 
       <Footer/>

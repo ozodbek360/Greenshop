@@ -8,6 +8,12 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { HiHome } from "react-icons/hi";
+import { FaHeart } from "react-icons/fa";
+import { PiShoppingCartSimpleFill } from "react-icons/pi";
+import { FaUser } from "react-icons/fa";
+import { LuScanLine } from "react-icons/lu";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="Footer">
@@ -59,7 +65,7 @@ const Footer = () => {
       </div>
       <div className="contact">
         <div className="image">
-          <img src="public/Images/Logo (1).png" alt="" />
+          <img src="public/Images/Logo.png" alt="" />
         </div>
         <ul>
           <li>
@@ -119,6 +125,22 @@ const Footer = () => {
                 <img src="https://cdn.shopify.com/s/files/1/0088/6407/1739/files/paypal-1.png?v=1536853722" alt="" />
             </div>
         </div>
+      </div> 
+      <div className="media_footer">
+        <ul>
+          <li><Link to={"/"}><HiHome /></Link></li>
+          <li><FaHeart /></li>
+         
+        </ul>
+        <div className="scan">
+          <Link to={"https://products.aspose.app/barcode/ru/recognize/qr"}><LuScanLine  / ></Link>
+
+        </div>
+        <ul>
+          <li><Link to={"shop"}><PiShoppingCartSimpleFill /></Link></li>
+          <li><Link to={"login"}><FaUser /></Link></li>
+         
+        </ul>
       </div>
     </div>
   );
