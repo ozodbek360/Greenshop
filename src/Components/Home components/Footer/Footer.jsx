@@ -129,7 +129,7 @@ const Footer = () => {
       <div className="media_footer">
         <ul>
           <li><Link to={"/"}><HiHome /></Link></li>
-          <li><FaHeart /></li>
+          <li><Link to={"/like"}><FaHeart /></Link></li>
          
         </ul>
         <div className="scan">
@@ -137,8 +137,8 @@ const Footer = () => {
 
         </div>
         <ul>
-          <li><Link to={"shop"}><PiShoppingCartSimpleFill /></Link></li>
-          <li><Link to={"login"}><FaUser /></Link></li>
+          <li><Link to={"/shop"}><PiShoppingCartSimpleFill /></Link></li>
+          <li><Link to={"/login"}><FaUser /></Link></li>
          
         </ul>
       </div>
