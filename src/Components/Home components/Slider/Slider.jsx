@@ -39,8 +39,8 @@ export default function App() {
               <button className='shopnow'>SHOP NOW</button>
             </div>
             <div className="slider_img">
-              <img src="public/Images/slider1.png" alt="bu yerda rasm bor" className='img1' />
-              <img src="public/Images/slider2.png" alt="bu yerda rasm bor" className='img2' />
+              <img src="./Images/slider1.png" alt="bu yerda rasm bor" className='img1' />
+              <img src="./Images/slider2.png" alt="bu yerda rasm bor" className='img2' />
 
             </div>
           </div>

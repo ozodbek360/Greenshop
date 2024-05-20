@@ -31,7 +31,7 @@ const Navbar = () => {
           <li><NavLink to={"plantcare"}>Plant Care</NavLink></li>
           <li><NavLink to={"blogs"}>Blogs</NavLink></li>
         </ul>
-      </div>
+      </div>1
 
       <div className="btn">
         <div className="icons">
