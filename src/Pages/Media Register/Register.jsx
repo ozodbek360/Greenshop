@@ -1,11 +1,16 @@
 import React from 'react'
 import "./Register.scss"
+import { Link } from 'react-router-dom'
 const Register = () => {
   return (
     <div className='Register'>
         <div className="image">
             <img src="./Images/medialogo.png" alt="" />
-        </div>
+        </div> 
+       <div className="back_login">
+       <Link to={"/login"}><h3>Login</h3></Link>
+       </div>
+         
           <div className="inputs">
                 <p className="username">
                   Enter your username and password to login.

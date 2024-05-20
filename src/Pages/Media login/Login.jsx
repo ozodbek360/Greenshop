@@ -7,6 +7,8 @@ const Login = () => {
         <div className="image">
             <img src="./Images/medialogo.png" alt="" />
         </div>
+        <div className="text">
+        </div>
           <div className="inputs">
                 <p className="username">
                   Enter your username and password to login.

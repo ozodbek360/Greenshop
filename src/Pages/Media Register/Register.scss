@@ -5,6 +5,11 @@
     align-items: center;
     flex-direction: column;
     gap: 15px;
+    .back_login{
+        a{
+            color: #46A358;
+        }
+    }
     .inputs{
         margin-top: 25px;    
         display: flex;

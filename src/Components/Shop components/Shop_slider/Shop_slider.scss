@@ -58,50 +58,43 @@
     
 } 
 @media screen  and (min-width: 0) and (max-width: 447px){
-  .Swiper{
-    width: 100%;
-    height: auto;
+ 
+  .box_s{
+    border: 1px solid;
+    width:250px;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    .box_s{
-        border: 1px solid;
-        width: 30%;
+    margin: 15px 10px 0 0;
+    padding: 5px 5px;
+    
+    .image{
+        padding: 5px;
         display: flex;
-        flex-direction: column;
-        margin-top: 15px;
-        padding: 10px 15px;
-        
-        .image{
-            width: 100%;
-            padding: 15px 15px;
-            height: auto;
-            display: flex;
-            justify-content: center;
-            // align-items: center;
-    
-    
-    
-            img{
-                height: 168px;
-                width: 168px;
-            }
+        justify-content: center;
+
+
+
+        img{
+            height: 150px;
+            width: 168px;
         }
-        h3{
-            font-size: 14px;
-            font-weight: 400;
-            text-align: left;
-            color: #3D3D3D;
-            
-        } 
-        p{
-            font-size: 14px;
-            font-weight: 700;
-            text-align: left;
-            color: #46A358;
-        } 
-        
+    }
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: #3D3D3D;
         
     } 
-  }
-}
+    p{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        color: #46A358;
+    } 
+    
+    
+} 
+ }
+    
+  
