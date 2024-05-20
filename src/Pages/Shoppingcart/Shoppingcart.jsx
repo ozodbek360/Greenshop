@@ -30,7 +30,7 @@ const Shoppingcart = () => {
           <div className="product_boxes">
             <div className="box">
               <div className="personal">
-                <img src="public/Images/box1.png" alt="rasm bor" />
+                <img src="./Images/box1.png" alt="rasm bor" />
                 <div className="text">
                   <h3>Barberton Daisy</h3>
                   <p>
@@ -61,7 +61,7 @@ const Shoppingcart = () => {
             </div>
             <div className="box">
               <div className="personal">
-                <img src="public/Images/box1.png" alt="rasm bor" />
+                <img src="./Images/box1.png" alt="rasm bor" />
                 <div className="text">
                   <h3>Barberton Daisy</h3>
                   <p>
@@ -92,7 +92,7 @@ const Shoppingcart = () => {
             </div> 
             <div className="box">
               <div className="personal">
-                <img src="public/Images/box1.png" alt="rasm bor" />
+                <img src="./Images/box1.png" alt="rasm bor" />
                 <div className="text">
                   <h3>Barberton Daisy</h3>
                   <p>
@@ -123,7 +123,7 @@ const Shoppingcart = () => {
             </div> 
             <div className="box">
               <div className="personal">
-                <img src="public/Images/box1.png" alt="rasm bor" />
+                <img src="./Images/box1.png" alt="rasm bor" />
                 <div className="text">
                   <h3>Barberton Daisy</h3>
                   <p>
@@ -154,7 +154,7 @@ const Shoppingcart = () => {
             </div> 
             <div className="box">
               <div className="personal">
-                <img src="public/Images/box1.png" alt="rasm bor" />
+                <img src="./Images/box1.png" alt="rasm bor" />
                 <div className="text">
                   <h3>Barberton Daisy</h3>
                   <p>
@@ -185,7 +185,7 @@ const Shoppingcart = () => {
             </div> 
             <div className="box">
               <div className="personal">
-                <img src="public/Images/box1.png" alt="rasm bor" />
+                <img src="./Images/box1.png" alt="rasm bor" />
                 <div className="text">
                   <h3>Barberton Daisy</h3>
                   <p>
@@ -216,7 +216,7 @@ const Shoppingcart = () => {
             </div> 
             <div className="box">
               <div className="personal">
-                <img src="public/Images/box1.png" alt="rasm bor" />
+                <img src="./Images/box1.png" alt="rasm bor" />
                 <div className="text">
                   <h3>Barberton Daisy</h3>
                   <p>

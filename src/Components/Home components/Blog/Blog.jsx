@@ -12,7 +12,7 @@ const Blog = () => {
         <div className="boxes">
             <div className="box">
             <div className="image">
-                <img src="public/Images/blog1.png" alt="" />
+                <img src="./Images/blog1.png" alt="" />
             </div>
            <div className="box_text">
            <h4>September 12  I Read in 6 minutes</h4>
@@ -23,18 +23,7 @@ const Blog = () => {
             </div>
             <div className="box">
             <div className="image">
-                <img src="public/Images/blog1.png" alt="" />
-            </div>
-           <div className="box_text">
-           <h4>September 12  I Read in 6 minutes</h4>
-            <h2>Cactus & Succulent Care Tips</h2>
-            <p>Cacti are succulents are easy care plants for any home or patio. </p>
-            <h5>Read More <GoArrowRight /></h5>
-           </div>
-            </div> 
-            <div className="box">
-            <div className="image">
-                <img src="public/Images/blog1.png" alt="" />
+                <img src="./Images/blog1.png" alt="" />
             </div>
            <div className="box_text">
            <h4>September 12  I Read in 6 minutes</h4>
@@ -45,7 +34,18 @@ const Blog = () => {
             </div> 
             <div className="box">
             <div className="image">
-                <img src="public/Images/blog1.png" alt="" />
+                <img src="./Images/blog1.png" alt="" />
+            </div>
+           <div className="box_text">
+           <h4>September 12  I Read in 6 minutes</h4>
+            <h2>Cactus & Succulent Care Tips</h2>
+            <p>Cacti are succulents are easy care plants for any home or patio. </p>
+            <h5>Read More <GoArrowRight /></h5>
+           </div>
+            </div> 
+            <div className="box">
+            <div className="image">
+                <img src="./Images/blog1.png" alt="" />
             </div>
            <div className="box_text">
            <h4>September 12  I Read in 6 minutes</h4>

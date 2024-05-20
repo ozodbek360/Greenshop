@@ -5,22 +5,22 @@ const New_arrivals = () => {
   return (
     <div className='boxes'>
      <div className="box">
-      <img src="public/Images/box1.png" alt="" />
+      <img src="./Images/box1.png" alt="" />
      </div> 
      <div className="box">
-      <img src="public/Images/box2.png" alt="" />
+      <img src="./Images/box2.png" alt="" />
      </div> 
      <div className="box">
-      <img src="public/Images/box3.png" alt="" />
+      <img src="./Images/box3.png" alt="" />
      </div> 
      <div className="box">
-      <img src="public/Images/box4.png" alt="" />
+      <img src="./Images/box4.png" alt="" />
      </div>
      <div className="box">
-      <img src="public/Images/box5.png" alt="" />
+      <img src="./Images/box5.png" alt="" />
      </div> 
      <div className="box">
-      <img src="public/Images/box6.png" alt="" />
+      <img src="./Images/box6.png" alt="" />
      </div>
      
     </div>

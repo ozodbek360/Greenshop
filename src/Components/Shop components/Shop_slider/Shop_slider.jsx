@@ -29,7 +29,7 @@ export default function App() {
       >
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box1.png" alt="" />
+                <img src="./Images/box1.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>
@@ -40,7 +40,7 @@ export default function App() {
             </div></SwiperSlide>
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box2.png" alt="" />
+                <img src="./Images/box2.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>
@@ -51,7 +51,7 @@ export default function App() {
             </div></SwiperSlide>
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box3.png" alt="" />
+                <img src="./Images/box3.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>
@@ -62,7 +62,7 @@ export default function App() {
             </div></SwiperSlide>
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box4.png" alt="" />
+                <img src="./Images/box4.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>
@@ -73,7 +73,7 @@ export default function App() {
             </div></SwiperSlide>
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box5.png" alt="" />
+                <img src="./Images/box5.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>
@@ -84,7 +84,7 @@ export default function App() {
             </div></SwiperSlide>
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box6.png" alt="" />
+                <img src="./Images/box6.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>
@@ -95,7 +95,7 @@ export default function App() {
             </div></SwiperSlide>
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box7.png" alt="" />
+                <img src="./Images/box7.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>
@@ -106,7 +106,7 @@ export default function App() {
             </div></SwiperSlide>
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box8.png" alt="" />
+                <img src="./Images/box8.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>
@@ -117,7 +117,7 @@ export default function App() {
             </div></SwiperSlide>
         <SwiperSlide><div className="box_s">
                 <div className="image">
-                <img src="public/Images/box9.png" alt="" />
+                <img src="./Images/box9.png" alt="" />
 
                 </div>
                 <h3>Barberton Daisy</h3>

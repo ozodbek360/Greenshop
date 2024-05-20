@@ -23,20 +23,20 @@ const Shopping_page = () => {
         <div className="box_image">
           <div className="mini_boxes">
             <div className="box">
-              <img src="public/Images/mini1.png" alt="" />
+              <img src="./Images/mini1.png" alt="" />
             </div>
             <div className="box">
-              <img src="public/Images/mini2.png" alt="" />
+              <img src="./Images/mini2.png" alt="" />
             </div> 
             <div className="box">
-              <img src="public/Images/mini1.png" alt="" />
+              <img src="./Images/mini1.png" alt="" />
             </div> 
             <div className="box">
-              <img src="public/Images/mini2.png" alt="" />
+              <img src="./Images/mini2.png" alt="" />
             </div> 
           </div> 
           <div className="max_box">
-            <img src="public/Images/max.png" alt="" />
+            <img src="./Images/max.png" alt="" />
           </div>
         </div>
         <div className="box_text">

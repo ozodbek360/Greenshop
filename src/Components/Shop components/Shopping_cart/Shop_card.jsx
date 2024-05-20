@@ -20,7 +20,7 @@ const Shop_card = () => {
             </div>
             <div className="cart_boxes">
                 <div className="box_c">
-                    <img src="public/Images/box1.png" alt="" />
+                    <img src="./Images/box1.png" alt="" />
                 </div>
             </div>
 

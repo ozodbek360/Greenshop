@@ -29,13 +29,13 @@ const Register = () => {
               <div className="btns">
                 <div className="btn1">
                   <button>
-                    <img src="public/Images/btn1.png" alt="" />
+                    <img src="./Images/btn1.png" alt="" />
                     <p>Login with Google</p>
                   </button>
                 </div>
                 <div className="btn2">
                   <button>
-                    <img src="public/Images/btn2.png" alt="" />
+                    <img src="./Images/btn2.png" alt="" />
                     <p>Login with Facebook</p>
                   </button>
                 </div>

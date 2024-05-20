@@ -9,7 +9,7 @@ const Cactus = () => {
                 <div className="box_image">
                   
 
-                    <img  className='cactus' src="public/Images/cactus1.png" alt="" />
+                    <img  className='cactus' src="./Images/cactus1.png" alt="" />
                 </div>
                 <div className="box_text">
                     <h2>SUMMER CACTUS & SUCCULENTS</h2>
@@ -21,7 +21,7 @@ const Cactus = () => {
                 <div className="box_image">
                 
 
-                    <img className='cactus' src="public/Images/cactus2.png" alt="" />
+                    <img className='cactus' src="./Images/cactus2.png" alt="" />
                 </div>
                 <div className="box_text">
                     <h2>SUMMER CACTUS & SUCCULENTS</h2>

@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="box_table">
           <div className="box">
             <div className="image">
-              <img src="public/Images/f_box1.png" alt="" />
+              <img src="./Images/f_box1.png" alt="" />
               <h2>Garden Care</h2>
               <p>
                 We are an online plant shop offering a wide range of cheap and
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className="box">
             <div className="image">
-              <img src="public/Images/f_box1.png" alt="" />
+              <img src="./Images/f_box1.png" alt="" />
               <h2>Garden Care</h2>
               <p>
                 We are an online plant shop offering a wide range of cheap and
@@ -41,7 +41,7 @@ const Footer = () => {
           </div> 
           <div className="box">
             <div className="image">
-              <img src="public/Images/f_box1.png" alt="" />
+              <img src="./Images/f_box1.png" alt="" />
               <h2>Garden Care</h2>
               <p>
                 We are an online plant shop offering a wide range of cheap and
@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
       <div className="contact">
         <div className="image">
-          <img src="public/Images/Logo.png" alt="" />
+          <img src="./Images/Logo.png" alt="" />
         </div>
         <ul>
           <li>
